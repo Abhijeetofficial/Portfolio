@@ -1,0 +1,71 @@
+.container{
+    box-sizing: border-box;
+    box-shadow: 2px 2px 13px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    position: relative;
+    transition: all .3s ease 0s;
+    padding: 100px;
+}
+
+.container:hover{
+transform: scale(1.1);
+}
+
+.para{
+    font-size: 22px;
+    font-style: normal;
+}
+
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px 90px;
+}
+
+img{
+    height : 400;
+}
+
+  
+  /* OTHERS */
+  
+  *:focus {
+	  outline: none;
+  } 
+  
+  #icon {
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  .more{
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color: rgb(12, 245, 225);
+    color: #fff;
+    font-size: 25px;
+    margin: 20px 0;
+    position: center;
+}
+
+  @media only screen and (max-width: 600px) {
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+    .para{
+        font-size: 20px;
+        font-style: italic;
+    }
+
+
+  }
+  .main-content{
+    background-image: url('../../assets/background2.jpg');
+    color: #f0f0f0;
+  }

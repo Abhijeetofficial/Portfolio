@@ -1,0 +1,48 @@
+.tw{
+    font-size: 200%;
+    margin-top: 1%;
+    /* background-color: black; */
+
+}
+.name{
+    font-size: 300%;
+    font-weight: 20px;
+    color: #fff;
+   
+}
+.container{
+    text-align: center;
+    margin-top: 5%;
+    color: #fff;
+}
+.nav-link{
+    padding: 0px 10px;
+}
+.col-lg-3{
+    box-sizing: border-box;
+    box-shadow: 2px 2px 13px rgb(0 0 0 / 10%);
+    background-color: rgb(51, 50, 50);
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    position: relative;
+    transition: all .3s ease 0s;
+    padding: 15px 0;
+}
+
+.content{
+    padding: 20px 0;
+}
+
+.col-lg-3:hover{
+transform: scale(1.1);
+background-color: rgb(31, 29, 29);
+}
+
+.home{
+    background-image: url('../../assets/background1.jpg');
+    padding: 100px 0px;
+    background-position: center;
+}
+/* .skill{
+    color: ;
+} */
